@@ -87,6 +87,7 @@ if ( ! class_exists( 'WC_Xem' ) ) {
 
 
 		protected function __construct() {
+			load_plugin_textdomain('woocommerce-gateway-xem', 'wp-content/plugins/woocommerce-gateway-xem/languages');
 			add_action( 'admin_init', array( $this, 'check_environment' ) );
 			add_action( 'admin_notices', array( $this, 'admin_notices' ), 15 );
 			add_action( 'plugins_loaded', array( $this, 'init' ) );
