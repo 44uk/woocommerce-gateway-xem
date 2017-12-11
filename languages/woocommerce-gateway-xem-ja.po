@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: WooCommerce Xem Gateway\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-11 10:28+0000\n"
-"PO-Revision-Date: 2017-12-11 10:32+0000\n"
-"Last-Translator: 44uk <noreply@44uk.net>\n"
+"PO-Revision-Date: 2017-12-11 13:45+0000\n"
+"Last-Translator: woo <woo@example.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -13,21 +13,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco - https://localise.biz/"
 
-#: woocommerce-gateway-xem.php:284
-#, php-format
-msgid ""
-"WooCommerce XEM - The minimum WooCommerce version required for this plugin "
-"is %1$s. You are running %2$s."
-msgstr "WooCommerce XEM - WooCommerce %1$s 以上が必要です。現在のバージョンは %2$s です。"
-
 #: includes/class-wc-gateway-xem.php:123
 msgid "Reference:"
-msgstr ""
-
-#: includes/class-wc-gateway-xem.php:176
-msgid ""
-"A XEM payment has not been registered to this checkout. Please contact our "
-"support department."
 msgstr ""
 
 #: includes/wc-gateway-xem-settings.php:19
@@ -40,31 +27,19 @@ msgid ""
 "empty and it will not show."
 msgstr ""
 
-#: includes/wc-gateway-xem-settings.php:33
-msgid "Input the XEM address where you want customers to pay XEM too."
-msgstr ""
-
 #: includes/wc-gateway-xem-settings.php:39
 msgid "Match amount"
-msgstr ""
+msgstr "量を合わせる"
 
 #: includes/wc-gateway-xem-settings.php:40
 msgid "Match transactions on Amount"
-msgstr ""
+msgstr "量のトランザクションを合わせる"
 
 #: includes/wc-gateway-xem-settings.php:42
 msgid ""
 "When customers paid in checkout and the system tried to match a transfer to "
 "your account, it will also try to match it on amount."
-msgstr ""
-
-#: includes/wc-gateway-xem-settings.php:50
-msgid "Show prices on store pages in XEM"
-msgstr ""
-
-#: includes/wc-gateway-xem-settings.php:63
-msgid "Save debug messages to the WooCommerce System Status log."
-msgstr "WooCommerceのシステムログにデバッグメッセージを保存する"
+msgstr "顧客が決済で支払ったときに、システムがあなたの口座への振替にマッチさせようとしたとき、それは額にマッチするよう試みるでしょう。"
 
 #. Name of the plugin
 msgid "WooCommerce Xem Gateway"
@@ -85,6 +60,31 @@ msgstr ""
 #. Author URI of the plugin
 msgid "http://nem.today"
 msgstr ""
+
+#: includes/class-wc-gateway-xem.php:176
+msgid ""
+"A XEM payment has not been registered to this checkout. Please contact our "
+"support department."
+msgstr "XEM支払いはこの会計に登録されていません。サポートに連絡してください。"
+
+#: includes/wc-gateway-xem-settings.php:33
+msgid "Input the XEM address where you want customers to pay XEM too."
+msgstr "顧客からのXEM支払いを受け取るXEMアドレスを入力してください。"
+
+#: includes/wc-gateway-xem-settings.php:50
+msgid "Show prices on store pages in XEM"
+msgstr "ストアのページでXEM価格を表示する"
+
+#: woocommerce-gateway-xem.php:284
+#, php-format
+msgid ""
+"WooCommerce XEM - The minimum WooCommerce version required for this plugin "
+"is %1$s. You are running %2$s."
+msgstr "WooCommerce XEM - WooCommerce %1$s 以上が必要です。現在のバージョンは %2$s です。"
+
+#: includes/wc-gateway-xem-settings.php:63
+msgid "Save debug messages to the WooCommerce System Status log."
+msgstr "WooCommerceのシステムログにデバッグメッセージを保存する"
 
 #: woocommerce-gateway-xem.php:274
 #, php-format
