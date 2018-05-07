@@ -104,6 +104,9 @@ if ( ! class_exists( 'WC_Xem' ) ) {
 				return;
 			}
 
+			// load languages
+			load_plugin_textdomain( 'woocommerce-gateway-xem', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
+
 			// Init the gateway itself
 			$this->init_gateways();
 
