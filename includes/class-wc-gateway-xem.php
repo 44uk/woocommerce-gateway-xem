@@ -22,7 +22,7 @@ class WC_Gateway_Xem extends WC_Payment_Gateway {
         $this->method_description = __('XEM works by showing a QR code and let customers pay XEM to your XEM wallet for orders in you shop.', 'woocommerce-gateway-xem');
         $this->has_fields = true;
         $this->icon = WC_XEM_PLUGIN_URL . ('/assets/img/pay_with_xem.png');
-        $this->order_button_text = "Waiting for payment";
+        $this->order_button_text = __('Waiting for payment', 'woocommerce-gateway-xem');
 
 
         // Load the form fields.
