@@ -159,7 +159,7 @@ if ( ! class_exists( 'WC_Xem' ) ) {
 		}
 
         public function xem_change_product_price( $price, $that ) {
-	        $price = $this->change_price_to_xem($price, $that->price);
+	        $price = $this->change_price_to_xem($price, $that->get_price());
 	        return $price;
         }
 
